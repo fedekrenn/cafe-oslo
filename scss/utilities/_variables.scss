@@ -1,0 +1,30 @@
+//Colors
+
+$red: #d03b40;
+$beige: #ded6c0;
+$white: #f5f0ed;
+$grey: #241d1b;
+$lightText: #f5f0ed;
+$darkText: #3c3c3b;
+
+//Extends
+
+%flexStyle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+%centerStyle{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+%legendParaghap {
+    width: 50%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+  

@@ -1,0 +1,48 @@
+header{
+    background-image: url(/assets/img/fondo1.jpg);
+    background-size: cover;
+    min-height: 100vh;
+    color: $lightText;
+}
+
+.navigation{
+    @extend %flexStyle;
+    padding: 20px;
+}
+
+ul{
+    display: flex;
+    li{
+        list-style: none;
+        text-transform: uppercase;
+        font-weight: bold;
+        padding: 0 15px;
+        
+    }
+}
+
+.presentation{
+    @extend %centerStyle;
+    position: relative;
+    top: 100px;
+    height: 100%;
+    h1{
+        width: 30%;
+        text-align: center;
+    }
+    p{
+        @extend %legendParaghap;
+    }
+}
+
+.mapZone{
+    h2{
+        position: relative;
+        top: 25px;
+    }
+    iframe{
+        position: relative;
+        top: 50px;
+    }
+}
+

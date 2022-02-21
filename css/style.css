@@ -1,0 +1,144 @@
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+.subSection1, .subSection2, .buttonContainer, .presentation {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.buttonContainer p, .presentation p {
+  width: 50%;
+  text-align: center;
+  margin-top: 10px; }
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif; }
+
+a {
+  text-decoration: none;
+  color: inherit; }
+
+h1 {
+  font-size: 44px; }
+
+h2 {
+  font-size: 28px; }
+
+h3 {
+  font-size: 24px; }
+
+iframe {
+  width: 40%;
+  height: 40%; }
+
+.buttom {
+  border: 2px solid #f5f0ed;
+  padding: 10px 20px;
+  margin-top: 40px; }
+
+hr {
+  width: 10%;
+  margin: 20px; }
+
+.section1, .section2 {
+  display: flex; }
+
+.subSection1 {
+  justify-content: center;
+  width: 50%;
+  color: #f5f0ed;
+  background-color: #d03b40;
+  text-align: center;
+  min-height: 60vh; }
+  .subSection1 p {
+    width: 50%;
+    margin: 20px; }
+  .subSection1 h2 {
+    width: 50%; }
+
+.subSection2 {
+  justify-content: center;
+  width: 50%;
+  color: #d03b40;
+  background-color: #ded6c0;
+  text-align: center;
+  min-height: 60vh; }
+  .subSection2 p {
+    width: 60%;
+    margin: 20px; }
+  .subSection2 h2 {
+    width: 50%; }
+
+.buttonContainer {
+  justify-content: center;
+  min-height: 80vh;
+  background-image: url(/assets/img/fondo2.jpg);
+  background-size: cover;
+  color: #f5f0ed; }
+
+.action {
+  display: flex;
+  align-items: center; }
+
+.column1, .column2, .column3, .column4 {
+  display: flex;
+  align-items: flex-start;
+  min-height: 30vh;
+  width: 50%;
+  margin-top: 60px; }
+
+.description {
+  display: flex;
+  flex-direction: column;
+  margin: 20px; }
+
+#contactSection {
+  margin-top: 30px; }
+  #contactSection h2 {
+    width: 70%; }
+
+header {
+  background-image: url(/assets/img/fondo1.jpg);
+  background-size: cover;
+  min-height: 100vh;
+  color: #f5f0ed; }
+
+.navigation {
+  padding: 20px; }
+
+ul {
+  display: flex; }
+  ul li {
+    list-style: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 0 15px; }
+
+.presentation {
+  position: relative;
+  top: 100px;
+  height: 100%; }
+  .presentation h1 {
+    width: 30%;
+    text-align: center; }
+
+.mapZone h2 {
+  position: relative;
+  top: 25px; }
+
+.mapZone iframe {
+  position: relative;
+  top: 50px; }
+
+footer {
+  min-height: 15vh;
+  background-color: #241d1b;
+  color: #f5f0ed;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
