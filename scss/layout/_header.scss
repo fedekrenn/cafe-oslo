@@ -46,3 +46,13 @@ ul{
     }
 }
 
+@media (max-width: 700px) {
+    
+    header{
+        min-height: 85vh;
+        .presentation{
+            top: 15px;
+       }
+    }
+
+}

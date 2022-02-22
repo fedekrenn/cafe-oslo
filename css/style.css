@@ -46,7 +46,8 @@ hr {
   margin: 20px; }
 
 .section1, .section2 {
-  display: flex; }
+  display: flex;
+  flex-wrap: wrap; }
 
 .subSection1 {
   justify-content: center;
@@ -83,24 +84,35 @@ hr {
 
 .action {
   display: flex;
-  align-items: center; }
+  flex-wrap: wrap;
+  align-items: flex-start;
+  margin: 60px 35px 35px 35px; }
 
-.column1, .column2, .column3, .column4 {
+.column {
   display: flex;
   align-items: flex-start;
   min-height: 30vh;
-  width: 50%;
-  margin-top: 60px; }
+  width: 50%; }
+  .column img {
+    width: 25%; }
 
 .description {
   display: flex;
   flex-direction: column;
-  margin: 20px; }
+  max-width: 75%;
+  margin: 1rem; }
 
 #contactSection {
   margin-top: 30px; }
   #contactSection h2 {
     width: 70%; }
+
+@media (max-width: 700px) {
+  .subSection1, .subSection2 {
+    width: 100%;
+    min-height: 45vh; }
+  .column {
+    width: 100%; } }
 
 header {
   background-image: url(/assets/img/fondo1.jpg);
@@ -134,6 +146,12 @@ ul {
 .mapZone iframe {
   position: relative;
   top: 50px; }
+
+@media (max-width: 700px) {
+  header {
+    min-height: 85vh; }
+    header .presentation {
+      top: 15px; } }
 
 footer {
   min-height: 15vh;
