@@ -17,7 +17,7 @@ ul{
         text-transform: uppercase;
         font-weight: bold;
         padding: 0 15px;
-        
+        color: $lightText ;
     }
 }
 
@@ -46,6 +46,19 @@ ul{
     }
 }
 
+.navbar-light .navbar-nav .nav-link{
+    color: white;
+    &:hover{
+        color: $red;
+    }
+}
+
+.navbar-toggler{
+    background-color: $beige;
+    ;
+}
+
+
 @media (max-width: 700px) {
     
     header{
@@ -54,5 +67,16 @@ ul{
             top: 15px;
        }
     }
+
+}
+
+@media (max-width: 400px) {
+
+    header{
+        .presentation{
+            font-size: .8rem;
+        }
+    }
+
 
 }

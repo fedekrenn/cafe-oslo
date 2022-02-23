@@ -22,6 +22,8 @@
 a {
   text-decoration: none;
   color: inherit; }
+  a:hover {
+    color: inherit; }
 
 h1 {
   font-size: 44px; }
@@ -32,9 +34,15 @@ h2 {
 h3 {
   font-size: 24px; }
 
+h1, h2, h3 {
+  font-weight: bold; }
+
 iframe {
   width: 40%;
   height: 40%; }
+
+hr {
+  opacity: 1; }
 
 .buttom {
   border: 2px solid #f5f0ed;
@@ -129,7 +137,8 @@ ul {
     list-style: none;
     text-transform: uppercase;
     font-weight: bold;
-    padding: 0 15px; }
+    padding: 0 15px;
+    color: #f5f0ed; }
 
 .presentation {
   position: relative;
@@ -147,11 +156,23 @@ ul {
   position: relative;
   top: 50px; }
 
+.navbar-light .navbar-nav .nav-link {
+  color: white; }
+  .navbar-light .navbar-nav .nav-link:hover {
+    color: #d03b40; }
+
+.navbar-toggler {
+  background-color: #ded6c0; }
+
 @media (max-width: 700px) {
   header {
     min-height: 85vh; }
     header .presentation {
       top: 15px; } }
+
+@media (max-width: 400px) {
+  header .presentation {
+    font-size: .8rem; } }
 
 footer {
   min-height: 15vh;
