@@ -86,7 +86,7 @@ hr {
 .buttonContainer {
   justify-content: center;
   min-height: 80vh;
-  background-image: url(/assets/img/fondo2.jpg);
+  background-image: url("../assets/img/fondo2.jpg");
   background-size: cover;
   color: #f5f0ed; }
 
@@ -123,7 +123,7 @@ hr {
     width: 100%; } }
 
 header {
-  background-image: url(/assets/img/fondo1.jpg);
+  background-image: url("../assets/img/fondo1.jpg");
   background-size: cover;
   min-height: 100vh;
   color: #f5f0ed; }
